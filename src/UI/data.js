@@ -4,7 +4,9 @@ import { MdOutlineBorderStyle } from "react-icons/md";
 import { LuUsers2 } from "react-icons/lu";
 import { MdOutlineLuggage } from "react-icons/md";
 
-
+import { RiMoneyDollarBoxLine } from "react-icons/ri";
+import { RiTodoLine } from "react-icons/ri";
+import { BsCalendarEvent } from "react-icons/bs";
 
 export const sidebarMenuData = [
   {
@@ -30,5 +32,29 @@ export const sidebarMenuData = [
   {
     icon: <MdOutlineAnalytics />,
     title: 'Analytics',
+  },
+]
+
+
+export const cardsData = [
+  {
+    title: 'Sales',
+    amount: '25,970',
+    icon: <RiMoneyDollarBoxLine />,
+    value: 70,
+  },
+
+  {
+    title: 'Revenue',
+    amount: '14,270',
+    icon: <BsCalendarEvent />,
+    value: 80,
+  },
+
+  {
+    title: 'Sales',
+    amount: '4,270',
+    icon: <RiTodoLine />,
+    value: 60,
   },
 ]

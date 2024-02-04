@@ -1,8 +1,8 @@
 import React from 'react';
 import './skins.css';
-import Dashboard from '../layout/dashboard';
-import Sidebar from '../layout/sidebar';
-import Review from '../layout/review';
+import Dashboard from '../components/dashboard';
+import Sidebar from '../components/sidebar';
+import Review from '../components/review';
 
 function Skins() {
   return (
