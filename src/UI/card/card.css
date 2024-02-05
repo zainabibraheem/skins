@@ -1,0 +1,44 @@
+.card {
+  display: flex;
+  border-radius: 0.7rem;
+  height: 10rem !important;
+  cursor: pointer;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.card:hover {
+  box-shadow: none;
+}
+
+.CircularProgessbar {
+  width: 90%;
+  height: 90%;
+  overflow: hidden;
+}
+
+.card-title {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  justify-content: flex-end ;
+  align-items: flex-start;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.card-details>span:nth-child(2) {
+  font-size: 35px;
+}
+
+.card-details>span:nth-child(3) {
+  font-size: 15px;
+}

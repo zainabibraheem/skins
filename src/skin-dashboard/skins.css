@@ -6,6 +6,7 @@
   padding: .2rem;
   border-radius: 2rem;
   display: grid;
-  grid-template-columns: 12rem auto 23rem;
+  gap: 15px;
+  grid-template-columns: 13rem auto 32rem;
 
 }

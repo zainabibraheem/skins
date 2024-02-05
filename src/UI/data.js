@@ -42,6 +42,10 @@ export const cardsData = [
     amount: '25,970',
     icon: <RiMoneyDollarBoxLine />,
     value: 70,
+    color: {
+      backGround: "linear-gradient(180deg, #bb67ff 0%, #c484f3 100%)",
+      boxShadow: "0px 10px 20px 0px #e0c6f5",
+    },
   },
 
   {
@@ -49,6 +53,10 @@ export const cardsData = [
     amount: '14,270',
     icon: <BsCalendarEvent />,
     value: 80,
+    color: {
+      backGround: "linear-gradient(180deg, #FF919D 0%, #FC929D 100%)",
+      boxShadow: "0px 10px 20px 0px #FDC0C7",
+    },
   },
 
   {
@@ -56,5 +64,10 @@ export const cardsData = [
     amount: '4,270',
     icon: <RiTodoLine />,
     value: 60,
+    color: {
+      backGround:
+        "linear-gradient(rgb(248, 212, 154) -146.42%, rgb(255 202 113) -46.42%)",
+      boxShadow: "0px 10px 20px 0px #F9D59B",
+    },
   },
 ]

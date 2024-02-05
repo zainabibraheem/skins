@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './sidebar.css';
-import { sidebarMenuData } from '../UI/data';
+import { sidebarMenuData } from '../../UI/data';
 
 function Sidebar() {
 
