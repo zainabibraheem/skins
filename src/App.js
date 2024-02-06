@@ -1,4 +1,4 @@
-import Skins from './skin-dashboard/skins';
+import Skins from './skins/skins';
 import './App.css';
 
 function App() {
