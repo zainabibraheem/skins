@@ -1,5 +1,10 @@
 .dashboard {
-  display: grid;
-  gap: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
   grid-template-rows: auto;
+}
+
+.dashboard h2 {
+  font-size: 33px;
 }

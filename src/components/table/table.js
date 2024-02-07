@@ -13,10 +13,10 @@ function createData(name, trackingId, date, status,) {
 }
 
 const rows = [
-  createData("Lasania Chiken Fri", 18908424, "2 March 2022", "Approved"),
-  createData("Big Baza Bang ", 18908424, "2 March 2022", "Pending"),
-  createData("Mouth Freshner", 18908424, "2 March 2022", "Approved"),
-  createData("Cupcake", 18908421, "2 March 2022", "Delivered"),
+  createData("Olay Body Wash", 18908424, "2 March 2022", "Approved"),
+  createData("Touch Bright & Clear", 18908424, "2 March 2022", "Pending"),
+  createData("Naturium", 18908424, "2 March 2022", "Approved"),
+  createData("Nivea", 18908421, "2 March 2022", "Delivered"),
 ];
 
 const changeStatusColor = (status) =>{
@@ -72,7 +72,7 @@ export default function BasicTable() {
                 <TableCell align="left">
                   <span className='status' style={changeStatusColor(row.status)}>{row.status}</span>
                 </TableCell>
-                <TableCell align="left" className='Details'>details</TableCell>
+                <TableCell align="left" className='Details'>Details</TableCell>
               </TableRow>
             ))}
           </TableBody>

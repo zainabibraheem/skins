@@ -8,6 +8,11 @@ import { RiMoneyDollarBoxLine } from "react-icons/ri";
 import { RiTodoLine } from "react-icons/ri";
 import { BsCalendarEvent } from "react-icons/bs";
 
+import image1 from "../assets/img1.png";
+import image2 from "../assets/img2.png";
+import image3 from "../assets/img3.png";
+
+
 export const sidebarMenuData = [
   {
     icon: <RxDashboard />,
@@ -33,7 +38,7 @@ export const sidebarMenuData = [
     icon: <MdOutlineAnalytics />,
     title: 'Analytics',
   },
-]
+];
 
 
 export const cardsData = [
@@ -70,4 +75,25 @@ export const cardsData = [
       boxShadow: "0px 10px 20px 0px #F9D59B",
     },
   },
-]
+];
+
+export const UpdatesData = [
+  {
+    image: image1,
+    name: "Andrew Thomas",
+    notification: "has ordered Apple smart watch 2500mh battery.",
+    time: "25 seconds ago",
+  },
+  {
+    image: image2,
+    name: "James Bond",
+    notification: "has received Samsung gadget for charging battery.",
+    time: "30 minutes ago",
+  },
+  {
+    image: image3,
+    name: "Iron Man",
+    notification: "has ordered Apple smart watch, samsung Gear 2500mh battery.",
+    time: "2 hours ago",
+  },
+];

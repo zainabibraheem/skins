@@ -1,0 +1,33 @@
+.updates {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.update-container {
+  background-color: #ffffff;
+  padding: 1.2rem 1.5rem;
+  width: 80%;
+  border-radius: 14px;
+
+}
+
+.update {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.update>img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.update-details {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.update-details p > span {
+  font-weight: bold;
+}
