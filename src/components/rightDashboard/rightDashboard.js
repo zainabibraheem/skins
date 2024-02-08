@@ -1,12 +1,13 @@
 import React from 'react'
 import Updates from '../../UI/updates/updates'
-import Review from '../../UI/review/review'
+
+import SaleReview from '../../UI/saleReview/saleReview'
 
 function RightDashboard() {
   return (
     <div>
       <Updates />
-      <Review />
+      <SaleReview />
       
     </div>
   )

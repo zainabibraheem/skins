@@ -20,7 +20,7 @@ function Sidebar() {
         {sidebarMenuData.map((data, index) => (
           <div className={activeMenuItem === index? 'menu-item  active' : 'menu-item'}
             key={index}
-            onClick={() => setActiveMenuItem(index)}
+            onClick={changeActiveMenuItem}
           >
             {data.icon}
             <span>{data.title}</span>

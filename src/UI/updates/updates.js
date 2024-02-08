@@ -10,7 +10,7 @@ const Updates = () => {
         {UpdatesData.map((data) => {
           return (
             <div className='update'>
-              <img src={data.image} />
+              <img src={data.image} alt=''/>
               <div className='update-details'>
                 <p><span>{data.name}</span> {data.notification}</p>
                 <span>{data.time}</span>
