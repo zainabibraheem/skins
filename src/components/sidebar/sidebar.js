@@ -4,11 +4,8 @@ import { sidebarMenuData } from '../../UI/data';
 
 function Sidebar() {
 
-  const [activeMenuItem, setActiveMenuItem] = useState(0)
+  const [activeMenuItem, setActiveMenuItem] = useState(2)
 
-  function changeActiveMenuItem (data, index){
-    setActiveMenuItem(index)
-  }
 
   return (
     <div className='sidebar'>
@@ -20,7 +17,7 @@ function Sidebar() {
         {sidebarMenuData.map((data, index) => (
           <div className={activeMenuItem === index? 'menu-item  active' : 'menu-item'}
             key={index}
-            onClick={changeActiveMenuItem}
+            onClick={() => setActiveMenuItem(index)}
           >
             {data.icon}
             <span>{data.title}</span>

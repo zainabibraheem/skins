@@ -1,0 +1,9 @@
+.right-dashboard {
+
+}
+
+@media screen and (max-width: 1400px) {
+  .right-dashboard {
+    margin-top: 1.8rem;
+  }
+}

@@ -8,3 +8,11 @@
 .dashboard h2 {
   font-size: 33px;
 }
+
+
+@media screen and (max-width: 1400px) {
+  .dashboard {
+    margin-top: 1.5rem;
+    gap: 10px;
+  }
+}

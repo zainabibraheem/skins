@@ -11,3 +11,11 @@
   font-family: sans-serif;
 
 }
+
+
+@media screen and (max-width: 1400px) {
+  .skins {
+  grid-template-columns: auto auto auto;
+  overflow-y: scroll;
+  }
+}

@@ -50,3 +50,12 @@
 }
 
 .menu-item icon {}
+
+
+@media screen and (max-width: 1400px) {
+  .menu-item>span {
+    display: none;
+  }
+
+  
+}
