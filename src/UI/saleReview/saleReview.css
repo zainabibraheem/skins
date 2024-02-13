@@ -1,12 +1,10 @@
 .sales-review {
   display: flex;
   flex-direction: column;
-  border-radius: 14px;
-
-  padding: 1rem;
   width: 98%;
 }
 
 .sales-chart {
-
+  border-radius: 14px;
+  background-color: #ffffff;
 }

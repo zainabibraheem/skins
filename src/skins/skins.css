@@ -7,7 +7,7 @@
   border-radius: 2rem;
   display: grid;
   gap: 18px;
-  grid-template-columns: 13rem auto 32rem;
+  grid-template-columns: 11rem auto 32rem;
   font-family: sans-serif;
 
 }
