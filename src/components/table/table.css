@@ -35,7 +35,7 @@
   font-size: 1000px;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
   .Table {
     width: 160%;
     margin-top: 1.3rem;
