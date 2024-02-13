@@ -73,6 +73,7 @@
 @media screen and (max-width: 728px) {
   .sidebar {
     display: none;
+    gap: 0.5rem;
   }
 
   .expanded-sidebar {
@@ -88,6 +89,10 @@
   .skins-logo {
     padding: .8rem;
     margin-top: 3.0em;
+  }
+
+  .menu {
+    gap: 3rem;
   }
 
   .menu-item > span {
