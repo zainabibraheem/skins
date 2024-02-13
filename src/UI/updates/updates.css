@@ -31,3 +31,9 @@
 .update-details p > span {
   font-weight: bold;
 }
+
+@media screen and (max-width: 728px) {
+  .updates {
+    align-items: center;
+  }
+}

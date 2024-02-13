@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
 import './sidebar.css';
 import { sidebarMenuData } from '../../UI/data';
+import { BiLogOutCircle } from "react-icons/bi";
 
-function Sidebar() {
+function Sidebar( props) {
 
-  const [activeMenuItem, setActiveMenuItem] = useState(2)
+  const [activeMenuItem, setActiveMenuItem] = useState(0)
 
 
   return (
-    <div className='sidebar'>
+    <div className={props.changeExpanded ? 'expanded-sidebar' : 'sidebar'}>
       <div className='skins-logo'>
         <h2>SK <span>INS </span> </h2>
       </div>
@@ -23,6 +24,8 @@ function Sidebar() {
             <span>{data.title}</span>
           </div>
         ))}
+
+        <BiLogOutCircle className='logout-icon' width={30} height={30} />
       </div>
     </div>
   )

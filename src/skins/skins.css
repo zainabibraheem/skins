@@ -19,3 +19,13 @@
   overflow-y: scroll;
   }
 }
+
+@media screen and (max-width: 728px) {
+  .skins {
+    grid-template-columns:  1fr;
+  }
+
+  .skins::-webkit-scrollbar {
+    display: none;
+  }
+}

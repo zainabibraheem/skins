@@ -10,9 +10,38 @@
 }
 
 
+.toggle-div {
+  display: none;
+}
+
 @media screen and (max-width: 1400px) {
   .dashboard {
     margin-top: 1.5rem;
     gap: 10px;
+  }
+}
+
+@media screen and (max-width: 728px) {
+  .dashboard {
+    align-items: center;
+  }
+
+  .toggle-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    padding: 7px;
+    position: fixed;
+    color: black;
+    top: 2.5rem;
+    left: 1rem;
+    z-index: 1;
+  
+  }
+
+  .toggle {
+    width: 38px;
+    height: 38px;
   }
 }

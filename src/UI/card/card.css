@@ -42,3 +42,13 @@
 .card-details>span:nth-child(3) {
   font-size: 15px;
 }
+
+@media screen and (max-width: 768px) {
+  .card {
+    height: 8rem !important;
+  }
+
+  .card-title {
+    gap: 1rem ;
+  }
+}

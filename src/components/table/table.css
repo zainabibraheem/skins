@@ -41,3 +41,15 @@
     margin-top: 1.3rem;
   }
 }
+
+@media screen and (max-width: 728px) {
+  .Table {
+    align-items: center;
+    width: 23rem;
+    position: relative;
+  }
+
+  .Table::-webkit-scrollbar {
+    display: none;
+  }
+}
