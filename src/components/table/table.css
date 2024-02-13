@@ -9,7 +9,7 @@
 }
 
 .MuiTableRow-root > * {
-  padding: px;
+  padding: 25px !important;
 }
 
 .MuiTableRow-root.MuiTableRow-head > * {

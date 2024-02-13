@@ -12,6 +12,11 @@
   .cards {
     flex-direction: column;
   }
+
+
+  .card-container {
+    height: 9rem;
+  }
 }
 
 @media screen and (max-width: 728px) {

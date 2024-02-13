@@ -67,7 +67,7 @@ const Review = () => {
     <div className='sales-review'>
       <h2>Sales across all platforms</h2>
      <div className='sales-chart'>
-     <Chart options={chartData.options}  series={chartData.series} />
+     <Chart className='chart' options={chartData.options}  series={chartData.series} />
      </div>
     </div>
   )

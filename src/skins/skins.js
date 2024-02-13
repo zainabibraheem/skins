@@ -11,7 +11,7 @@ function Skins() {
   const handleExpanded = (toggle) => {
      console.log(toggle)
 
-    if (toggle == true) {
+    if (toggle === true) {
       setExpanded(!expanded)
     } 
       else {
